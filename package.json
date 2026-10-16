@@ -1,0 +1,7 @@
+{
+  "name": "museum-guide",
+  "version": "0.9.0",
+  "private": true,
+  "scripts": { "test": "vitest run", "build": "tsc -p ." },
+  "devDependencies": { "typescript": "^5.4.0", "vitest": "^1.6.0" }
+}
