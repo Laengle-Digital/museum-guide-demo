@@ -12,3 +12,6 @@ export class AudioPlayer {
     this.current = undefined;
   }
 }
+
+export const BUILD_CHANNEL = "release";
+export const STORE_TARGETS = ["ios", "android"] as const;
