@@ -14,3 +14,7 @@ export class Tour {
     return this.current();
   }
 }
+
+export function onAndroidBack(tour: Tour, close: () => void): void {
+  if (!tour.next) close();
+}
